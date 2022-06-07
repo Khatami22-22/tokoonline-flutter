@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Palette {
-  // static String sUrl = "http://10.0.2.2:8056/tokoonline";
-  static String sUrl = "http://192.168.1.90:8056/tokoonline";
+  static String sUrl = "http://10.0.2.2:8056/tokoonline-ws";
+  // static String sUrl = "http://192.168.1.90:8056/tokoonline";
   static Color abu = const Color.fromRGBO(189, 189, 189, 1);
   static Color abu2 = const Color.fromRGBO(66, 66, 66, 1);
   static Color putih = Colors.white;

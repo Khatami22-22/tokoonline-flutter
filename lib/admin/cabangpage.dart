@@ -388,9 +388,9 @@ class _CabangPageState extends State<CabangPage> {
       future: cabanglist,
       builder: (context, snapshot) {
         if (!snapshot.hasData) {
-          return Center(
+          return const Center(
             child: Column(
-              children: const [
+              children: [
                 CircularProgressIndicator(),
               ],
             ),
